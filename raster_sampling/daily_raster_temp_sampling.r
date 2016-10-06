@@ -13,8 +13,6 @@ library(foreach)
 library(doParallel)
 library(doSNOW)
 
-registerDoParallel(3)  #sets number of cores to be used for operation (parallel processing)
-
 ##Specify "AT-max" or "AT-min"
 obj1 = "AT-min"
 
